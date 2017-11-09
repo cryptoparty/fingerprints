@@ -2,17 +2,31 @@
 
 This list is useful when using PGP to verify downloads. This involves what's called signatures and the Torproject has an explanation of [How to verify signatures](https://www.torproject.org/docs/verifying-signatures.html.en).
 
-**Disclaimer**
+
+## Disclaimer
 
 Please keep in mind that there is no guarantee for the correctness of any of the fingerprints below! You still have to verify them independently!
 
-Working towards improved trust in this list the source file has been signed by one or more people in the community (see *.asc files in this directory).
 
-This is an example on to verify the file's signature on the terminal:
+## This File is Signed
+
+Working towards improved trust in this list the source file has been signed by one or more people in the community.
+
+To verify the file's signature on the terminal:
 
 ```
-gpg2 --verify README.md.dawning_sun.sig README.md
+gpg2 --verify README.md.asc README.md
 ```
+
+
+And to create a new signature:
+
+```
+gpg2 --sign -a README.md
+```
+
+
+## Fingerprint List
 
 | Software/Project  | Fingerprint                       | Download     | Other Links  |
 |:------------------|:----------------------------------|:-------------|:-------------|
