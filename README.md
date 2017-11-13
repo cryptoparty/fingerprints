@@ -1,6 +1,6 @@
 # Fingerprints of Signing Keys
 
-This list is useful when using PGP to verify downloads. This involves what's called signatures and the Torproject has an explanation of [How to verify signatures](https://www.torproject.org/docs/verifying-signatures.html.en).
+This list is useful when using PGP to verify downloads. This involves what's called signatures and the Tor Project has an explanation of [How to verify signatures](https://www.torproject.org/docs/verifying-signatures.html.en).
 
 
 ## Disclaimer
